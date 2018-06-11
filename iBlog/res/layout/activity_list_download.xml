@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear_download"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout  
+	    android:layout_width="match_parent"
+	    android:layout_height="45dp"
+	    android:orientation="horizontal"
+	    android:gravity="center_vertical"
+	    android:paddingLeft="10dp"
+	    android:paddingTop="5dp"
+	    android:paddingBottom="5dp"
+	    android:background="#00BFFF"
+	    >
+	    <ImageView 
+	        android:id="@+id/image_download_title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/btn"
+	        />
+	    <TextView 
+	        android:id="@+id/textview_download_title"
+	        android:layout_width="0dp"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:layout_gravity="center"
+	        android:gravity="center"
+	        android:textSize="25dp"
+	        android:textColor="#FFFFFF"
+	        android:text="@string/download"
+	        />
+	    <ImageView 
+	        android:id="@+id/image_download_make"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/ic_menu_delete"
+	        android:layout_marginRight="10dp"
+	        
+	        />
+	</LinearLayout>
+	<ListView
+	    android:id="@+id/listview_download"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="#FFFFFF"
+	    >
+	    
+	</ListView>
+
+</LinearLayout>

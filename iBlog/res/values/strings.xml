@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+
+    <string name="app_name">博客园</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="collection">收藏</string>
+    <string name="download">离线浏览</string>
+    <string name="search">博客搜索</string>
+    <string name="title_activity_news_content">NewsContentActivity</string>
+    <string name="title_activity_content_blogs">ContentBlogsActivity</string>
+    <string name="title_activity_comment">CommentActivity</string>
+    <string name="title_activity_down_load_content">DownLoadContentActivity</string>
+    <string name="title_activity_search_artical">SearchArticalActivity</string>
+
+</resources>

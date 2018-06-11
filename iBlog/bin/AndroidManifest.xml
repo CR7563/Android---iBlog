@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.activity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+ 
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.activity.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.activity.NewsContentActivity"
+            android:label="@string/title_activity_news_content" >
+        </activity>
+        <activity
+            android:name="com.example.activity.ContentBlogsActivity"
+            android:label="@string/title_activity_content_blogs" >
+        </activity>
+        <activity
+            android:name="com.example.activity.CommentActivity"
+            android:label="@string/title_activity_comment" >
+        </activity>
+        <activity
+            android:name="com.example.activity.DownLoadContentActivity"
+            android:label="@string/title_activity_down_load_content" >
+        </activity>
+        <activity
+            android:name="com.example.activity.SearchArticalActivity"
+            android:label="@string/title_activity_search_artical" >
+        </activity>
+    </application>
+
+</manifest>
